@@ -22,8 +22,9 @@ export default function ShereDocument({ setShereDocument, handleShereDocument, d
                             <Mail color="#9CA3AF" size={22} />
                             <input type="email" placeholder="Email" className="outline-none border-b" />
                         </div>
-                        <div>
-                            
+                        <div className="flex gap-2 my-2">
+                            <input type="checkbox" className="border" />
+                            <p className="text-neutral-600">Editable</p>
                         </div>
                     </div>
                     <div className="flex gap-2 w-full mt-2">
